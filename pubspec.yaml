@@ -1,0 +1,52 @@
+name: cocosite
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.6
+  otp_pin_field: ^1.2.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/cocosite.png
+    - assets/images/facebook.png
+    - assets/images/google.png
+    - assets/images/icon-home.png
+    - assets/images/icon-shop.png
+    - assets/images/icon-bell.png
+    - assets/images/icon-setting.png
+    - assets/images/icon-menu.png
+  #   - images/a_dot_ham.jpeg
+
+  fonts:
+    - family: Metropolis
+      fonts:
+        - asset: assets/fonts/Metropolis-Regular.otf
+        - asset: assets/fonts/Metropolis-Medium.otf
+          weight: 500
+        - asset: assets/fonts/Metropolis-SemiBold.otf
+          weight: 600
+        - asset: assets/fonts/Metropolis-Bold.otf
+          weight: 700
+        - asset: assets/fonts/Metropolis-ExtraBold.otf
+          weight: 800
